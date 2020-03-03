@@ -12,9 +12,8 @@
 
 ## About the Project 
 
-Math-magicians is a fictional company based in France. They want help to build a simple product that would assist them with their calculations. An important thing to notice is that they have asked for a product that is not just fully-functional, but also beautiful and user-friendly.
+Math-magicians is a fictional company based in France. They want help to build a simple product that would assist them with their calculations. 
 
-![Calculator Screenshot](https://github.com/microverseinc/project-react-calculator/blob/master/images/calculator.png?raw=true)
 
 ## Milestones 
 
