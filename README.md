@@ -10,9 +10,13 @@
 - ES6
 
 
+
 ## About the Project 
 
 Math-magicians is a fictional company based in France. They want help to build a simple product that would assist them with their calculations. 
+
+## Live Version 
+Can be found on https://calculact.herokuapp.com/
 
 
 ## Milestones 
