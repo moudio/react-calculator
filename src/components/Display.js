@@ -1,6 +1,6 @@
 import React from 'react';
 import Proptypes from 'prop-types';
-import '../Display.css'
+import '../Display.css';
 
 const display = props => {
   const { result } = props;
