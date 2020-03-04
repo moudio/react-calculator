@@ -1,3 +1,4 @@
+// eslint-disable-next-line
 import Big from 'big.js';
 
 function operate(numberOne, numberTwo, operation) {
