@@ -2,6 +2,9 @@ import React from 'react';
 import '../App.css';
 import Display from './Display';
 import ButtonPanel from './ButtonPanel';
+/* eslint-disable */
+import calculate from '../logic/calculate';
+/* eslint-enable */
 
 class App extends React.Component {
   constructor(props) {

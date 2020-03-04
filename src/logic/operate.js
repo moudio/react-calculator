@@ -1,26 +1,21 @@
-import Big from 'big'
-const operate = (numberOne, numberTwo, operation) => {
-  numberOne = Big(numberOne);
-  numberTwo = Big(numberTwo);
-  switch (operation) {
-    case '+':
-      return numberOne.plus(numberOne);
-      break;
-    case '-':
-      return numberOne.minus(numberTwo);
-      break;
-    case 'x':
-      return numberOne.times(numberTwo);
-      break;
-    case '÷':
-      return numberOne.div(numberTwo);
-      break;
-    case '%':
-        return numberOne.pow(2);
-      break;
-    default:
+import Big from 'big.js';
 
+function operate(numberOne, numberTwo, operation) {
+  const one = Big(numberOne);
+  const two = Big(numberTwo);
+  if (operation === '+') {
+    return one.plus(two);
+  } if (operation === '+') {
+    return one.minus(two);
+  } if (operation === 'x') {
+    return one.times(two);
+  } if (operation === '÷') {
+    return one.div(two);
+  } if (operation === '%') {
+    return one.pow(2);
   }
+
+  return null;
 }
 
 export default operate;
