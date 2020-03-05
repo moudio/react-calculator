@@ -11,7 +11,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="App">
         <Display result="0" />
         <ButtonPanel />
       </div>
