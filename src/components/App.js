@@ -9,14 +9,22 @@ import calculate from '../logic/calculate';
 class App extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = {
+      total: null,
+      next: null,
+      operation: null
+    };
   }
+    handleClick(buttonName){
+      this.setState({total: 34})
+    }
+
 
   render() {
     return (
       <div className="App">
-        <Display result="0" />
-        <ButtonPanel />
+        <Display result= {this.state.total} />
+        <ButtonPanel clickHandler = {this.handleClick} />
       </div>
     );
   }

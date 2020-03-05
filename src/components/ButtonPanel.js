@@ -36,5 +36,9 @@ const buttonPanel = () => (
   </div>
 );
 
+function handleClick(buttonName){
+  
+}
+
 
 export default buttonPanel;
