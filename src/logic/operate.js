@@ -13,7 +13,7 @@ function operate(numberOne, numberTwo, operation) {
   } if (operation === '÷') {
     return one.div(two);
   } if (operation === '%') {
-    return one.pow(2);
+    return one.mod(2);
   }
 
   return null;
