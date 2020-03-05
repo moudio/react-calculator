@@ -2,15 +2,9 @@ import React from 'react';
 import Proptypes from 'prop-types';
 import '../Button.css';
 
-const button = props => {
-  const { name, color } = props;
-  let { wide } = props;
-  wide = wide === true ? '50%' : '25%';
-  return (
-    <button type="button" className="Button" style={{ background: color, width: wide }}>{name}</button>
-  );
-};
-
+const button = ({ name, color, wide }) => (
+  <button type="button" className="Button" style={{ background: color, width: wide === true ? '50%' : '25%' }}>{name}</button>
+);
 
 button.defaultProps = {
   name: '',

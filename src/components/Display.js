@@ -12,7 +12,7 @@ const display = props => {
 };
 
 display.defaultProps = {
-  result: 0,
+  result: '0',
 };
 
 display.propTypes = {
