@@ -5,15 +5,22 @@ function operate(numberOne, numberTwo, operation) {
   const one = Big(numberOne);
   const two = Big(numberTwo);
   if (operation === '+') {
-    return one.plus(two);
-  } if (operation === '+') {
-    return one.minus(two);
-  } if (operation === 'x') {
-    return one.times(two);
-  } if (operation === '÷') {
-    return one.div(two);
-  } if (operation === '%') {
-    return one.mod(2);
+    return one.plus(two).toString();
+  }
+  if (operation === '-') {
+    return one.minus(two).toString();
+  }
+  if (operation === 'x') {
+    return one.times(two).toString();
+  }
+  if (operation === '÷') {
+    if (numberTwo === '0') {
+      return 'Infinity';
+    }
+    return one.div(two).toString();
+  }
+  if (operation === '%') {
+    return one.mod(2).toString();
   }
 
   return null;
