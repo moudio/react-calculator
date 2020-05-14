@@ -1,5 +1,5 @@
 # Building a simple calculator with React
-
+![screenshot](./public/screenshot.png)
 ## Technologies
 - Node.js
 - React
@@ -11,15 +11,15 @@
 
 
 
-## About the Project 
+## About the Project
 
-Math-magicians is a fictional company based in France. They want help to build a simple product that would assist them with their calculations. 
+Math-magicians is a fictional company based in France. They want help to build a simple product that would assist them with their calculations.
 
-## Live Version 
+## Live Version
 Can be found on <a href="https://mouhadiouf.github.io/react-calculator/" target="_blank">React Calculator</a>
 
 
-## Milestones 
+## Milestones
 
 - **Milestone 1**: [Basic project structure](https://github.com/microverseinc/project-react-calculator/blob/master/milestones/MILESTONE_1.md)
 - **Milestone 2**: [Components](https://github.com/microverseinc/project-react-calculator/blob/master/milestones/MILESTONE_2.md)
