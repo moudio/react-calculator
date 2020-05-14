@@ -16,7 +16,7 @@
 Math-magicians is a fictional company based in France. They want help to build a simple product that would assist them with their calculations. 
 
 ## Live Version 
-Can be found on <a href="https://mouhadiouf.github.io/react_calculator/" target="_blank">React Calculator</a>
+Can be found on <a href="https://mouhadiouf.github.io/react-calculator/" target="_blank">React Calculator</a>
 
 
 ## Milestones 
